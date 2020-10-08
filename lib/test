@@ -8,7 +8,7 @@ price_per_person = total.to_f / num_of_people
 
 
 def calculate_interest (loan_amount)
-  loan_amount * 0.0699
+  loan_amount * 0.0525
 end
 
-puts calculate_interest(12000)
+puts calculate_interest(9400)
